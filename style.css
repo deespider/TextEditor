@@ -1,0 +1,41 @@
+
+
+.main-content {
+    width: 620px;
+    height: 600px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 25%;
+
+    transform: translate(50% 50% );
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.50) ;
+
+}
+ 
+.header-tool {
+    background-color: green;
+    padding: 6px;
+}
+
+.content {
+   min-height: 540px;
+   border: 1px solid black;
+   border-top: 0;
+
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+
+}
+.btn:active {
+    background-color: gray ;
+}
+
+
